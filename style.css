@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.cards {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.button2 {
+    width: 12rem;
+    padding: 10px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.gen-card {
+
+    background-color: white;
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    transition: height 0.2s ease;
+
+}
+
+.download-image {
+    display: none;
+}
+
+.active-btn {
+    display: block;
+    padding: 10px;
+    width: 150px;
+
+    border-radius: 30px;
+    border-style: none;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 20px;
+}
+
+
+.read-card {
+    background-color: white;
+    width: 450px;
+    height: 250px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.read-active {
+    margin-bottom: 30px;
+}
+
+.img {
+    padding: 30px;
+}
+
+.gen-items {
+    margin-top: 30px;
+}
+
+.active {
+    height: 450px;
+    margin-bottom: 30px;
+}
+
+.items {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-field {
+    padding: 10px;
+    width: 20em;
+    border-radius: 30px;
+    border-width: 1px;
+    border-color: 1px solid red;
+    margin: 20px;
+}
+
+.input-field-file {
+    display: none;
+    visibility: none;
+}
+
+.upload {
+    width: 190px;
+    height: 100px;
+    background-size: cover;
+    height: 80;
+}
+
+.upload:hover {
+    cursor: pointer;
+}
+
+.button {
+    width: 12rem;
+    padding: 10px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 20px;
+}
+
+.qr-code-img {
+    height: 150px;
+    margin: 10px;
+}
+
+.gen-text {
+    display: none;
+}
+
+.scan-selected {
+    height: 450px;
+}
+
+.form-area {
+    width: 300px;
+}
+
+.gen-text-active {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    text-align: center;
+
+}
+
+.button3 {
+    display: none;
+    width: 12rem;
+    padding: 10px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 20px;
+}
+
+.button3-active {
+    display: block;
+    margin-top: 10px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR-CODE-READER-GENERATOR</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body bgcolor="5DB2E2">
+    <div class="cards">
+        <div class="gen-card ">
+
+
+            <div class="items gen-items">
+                <h3 style="text-align: center; ">Generate QR-CODE</h1>
+                    <input class="input-field" id="input-field" type="text" name="link"
+                        placeholder="Enter text or a link" />
+                    <button class="button">Generate</button>
+
+                    <img class="img" src=""></img>
+
+
+
+            </div>
+
+
+        </div>
+        <div class="read-card ">
+
+            <div class="items">
+                <h3>Read QR-CODE</h1>
+                    <form class="read-form">
+
+                        <img class="upload"
+                            src="https://testersdock.b-cdn.net/wp-content/uploads/2017/09/file-upload-1280x640.png.webp" />
+
+                        <input class="input-field-file" type="file" name="link-file" accept="image/*" />
+                    </form>
+                    <button class="button2">Scan</button>
+                    <form class="form-area">
+                        <textarea class="gen-text"></textarea>
+                    </form>
+                    <button class="button3">Copy</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="index.js">
+    </script>
+</body>
+
+</html>
